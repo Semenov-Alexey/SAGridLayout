@@ -1,0 +1,6 @@
+framework module Pods_SAGridLayout_Tests {
+  umbrella header "Pods-SAGridLayout_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

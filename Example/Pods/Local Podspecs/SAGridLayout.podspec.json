@@ -1,0 +1,22 @@
+{
+  "name": "SAGridLayout",
+  "version": "0.1.0",
+  "summary": "A short description of SAGridLayout.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Semenov-Alexey/SAGridLayout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Semenov-Alexey": "w.l.e.o@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/Semenov-Alexey/SAGridLayout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SAGridLayout/Classes/**/*"
+}

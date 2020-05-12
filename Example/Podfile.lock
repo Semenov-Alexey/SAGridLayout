@@ -1,0 +1,16 @@
+PODS:
+  - SAGridLayout (0.1.0)
+
+DEPENDENCIES:
+  - SAGridLayout (from `../`)
+
+EXTERNAL SOURCES:
+  SAGridLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SAGridLayout: 32803c4aacd9679c3c4ba96efc1affed270c0e81
+
+PODFILE CHECKSUM: dd05772415a680d4f1f4a89fdc0288d8adae8e41
+
+COCOAPODS: 1.8.4
