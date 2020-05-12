@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SAGridLayout_Example' do
+  pod 'SAGridLayout', :path => '../'
+
+  target 'SAGridLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
