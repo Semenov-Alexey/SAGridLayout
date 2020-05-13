@@ -11,19 +11,49 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+Swift 5.0. Ready for use on iOS 13+
 
 ## Installation
+CocoaPods is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate SAGridLayout into your Xcode project using CocoaPods, specify it in your Podfile:
 
-SAGridLayout is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+
 
 ```ruby
 pod 'SAGridLayout'
 ```
+## Manually
+If you prefer not to use any of dependency managers, you can integrate SAGridLayout into your project manually. Put Source/SAGridLayout folder in your Xcode project. Make sure to enable Copy items if needed and Create groups.
 
+## Usage
+
+Create your UIcollectionViewController:
+```ruby
+import SAGridLayout
+...
+
+let myCollectionViewController = SACollectionViewController()
+```
+In viewDidload of your UIcollectionViewController, choose grid which you want to show first, and config rightBarButtonItem like in code below:
+```ruby
+.selectedStyle = .customGrid // or .defaultGrid or .table
+
+ navigationItem.rightBarButtonItem = UIBarButtonItem(image: selectedStyle.buttonImage, style: .plain, target: self, action: #selector(SACollectionViewController.changeContentLayout))
+```
+In your UICollectionViewCell class override func layoutSubviews() like in code below: 
+```ruby
+ override func layoutSubviews() {
+        super.layoutSubviews()
+        
+ //MARK: - Call this method for updating content style by your cell
+        SAContentLayout.shared.updateContentStyle(view: self, stackView: stackView, ibLabel: [ibLabel])
+            
+        
+       
+    }
+```
 ## Author
 
-Semenov-Alexey, w.l.e.o@icloud.com
+Semenov Alexey, w.l.e.o@icloud.com
 
 ## License
 
