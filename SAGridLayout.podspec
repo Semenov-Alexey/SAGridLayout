@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SAGridLayout'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SAGridLayout.'
+  s.summary          = 'Show UICollectionView element's list in a more unique and interesting way.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'Show UICollectionView element's list in a more unique and interesting way in one line of code'
                        DESC
 
   s.homepage         = 'https://github.com/Semenov-Alexey/SAGridLayout'
@@ -26,11 +26,16 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Semenov-Alexey' => 'w.l.e.o@icloud.com' }
   s.source           = { :git => 'https://github.com/Semenov-Alexey/SAGridLayout.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://www.facebook.com/profile.php?id=100004116511145'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '13.0'
+  s.source_files = 'Source/**/*.swift'
+  s.swift_version = '5.0'
+  s.platforms = {
+  "ios": "13.0"
+}
 
-  s.source_files = 'SAGridLayout/Classes/**/*'
+  # s.source_files = 'SAGridLayout/Classes/**/*'
   
   # s.resource_bundles = {
   #   'SAGridLayout' => ['SAGridLayout/Assets/*.png']

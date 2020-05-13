@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		00FC7B4B797C02885BF06A3B /* Pods_SAGridLayout_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7D5718E361F06F8DB422E9 /* Pods_SAGridLayout_Tests.framework */; };
+		56817388246AC1F7009EAE9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56817387246AC1F6009EAE9A /* Main.storyboard */; };
+		5681738A246AC217009EAE9A /* JewelryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56817389246AC217009EAE9A /* JewelryCollectionViewCell.xib */; };
+		5681738C246AC289009EAE9A /* JewelryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5681738B246AC289009EAE9A /* JewelryProvider.swift */; };
+		5681738E246AC2AE009EAE9A /* Jewelry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5681738D246AC2AE009EAE9A /* Jewelry.swift */; };
+		56817390246AC359009EAE9A /* JewelryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5681738F246AC359009EAE9A /* JewelryCollectionViewCell.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
+		607FACD81AFB9204008FA782 /* JewelryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* JewelryViewController.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6B82F88EFA635EC0614B6C28 /* Pods_SAGridLayout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928F2CBDDC4B1095DC765B3E /* Pods_SAGridLayout_Example.framework */; };
 /* End PBXBuildFile section */
@@ -32,14 +35,17 @@
 		2653439F6E5C81DCBCAEBB03 /* Pods-SAGridLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAGridLayout_Example.release.xcconfig"; path = "Target Support Files/Pods-SAGridLayout_Example/Pods-SAGridLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 		27436FA3AABFD475E9528F73 /* Pods-SAGridLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAGridLayout_Example.debug.xcconfig"; path = "Target Support Files/Pods-SAGridLayout_Example/Pods-SAGridLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		35E4C970DBEA65878881C37D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		56817387246AC1F6009EAE9A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		56817389246AC217009EAE9A /* JewelryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JewelryCollectionViewCell.xib; sourceTree = "<group>"; };
+		5681738B246AC289009EAE9A /* JewelryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelryProvider.swift; sourceTree = "<group>"; };
+		5681738D246AC2AE009EAE9A /* Jewelry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jewelry.swift; sourceTree = "<group>"; };
+		5681738F246AC359009EAE9A /* JewelryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelryCollectionViewCell.swift; sourceTree = "<group>"; };
 		5EA9046FFDEBC82AED8C1B9B /* Pods-SAGridLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAGridLayout_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SAGridLayout_Tests/Pods-SAGridLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SAGridLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAGridLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* JewelryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelryViewController.swift; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SAGridLayout_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAGridLayout_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -105,10 +111,13 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				56817387246AC1F6009EAE9A /* Main.storyboard */,
+				607FACD71AFB9204008FA782 /* JewelryViewController.swift */,
+				5681738B246AC289009EAE9A /* JewelryProvider.swift */,
+				5681738F246AC359009EAE9A /* JewelryCollectionViewCell.swift */,
+				5681738D246AC2AE009EAE9A /* Jewelry.swift */,
+				56817389246AC217009EAE9A /* JewelryCollectionViewCell.xib */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for SAGridLayout";
@@ -247,9 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				56817388246AC1F7009EAE9A /* Main.storyboard in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				5681738A246AC217009EAE9A /* JewelryCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,8 +341,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				5681738C246AC289009EAE9A /* JewelryProvider.swift in Sources */,
+				607FACD81AFB9204008FA782 /* JewelryViewController.swift in Sources */,
+				5681738E246AC2AE009EAE9A /* Jewelry.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				56817390246AC359009EAE9A /* JewelryCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,25 +366,6 @@
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
