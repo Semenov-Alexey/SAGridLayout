@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Semenov-Alexey' => 'w.l.e.o@icloud.com' }
-  s.source           = { :git => 'https://github.com/Semenov-Alexey/SAGridLayout.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Semenov-Alexey/SAGridLayout.git', :branch => "master" :tag => s.version.to_s }
   s.social_media_url = 'https://www.facebook.com/profile.php?id=100004116511145'
 
   s.ios.deployment_target = '13.0'
