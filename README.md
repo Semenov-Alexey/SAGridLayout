@@ -44,11 +44,8 @@ In your UICollectionViewCell class override func layoutSubviews() like in code b
  override func layoutSubviews() {
         super.layoutSubviews()
         
- //MARK: - Call this method for updating content style by your cell
         SAContentLayout.shared.updateContentStyle(view: self, stackView: stackView, ibLabel: [ibLabel])
             
-        
-       
     }
 ```
 ## Author
